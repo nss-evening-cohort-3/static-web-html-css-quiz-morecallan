@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*The entire card has a solid 1px border that is lightblue.*/
+/*Each card should take up 30% of the width of the browser window.*/
+article {
+    width: 30%;
+    float: left;
+    border: 1px solid lightblue;
+    margin: 1.4%;
+}
+
+/*The card title has a dotted 1px border that is lightgray.*/
+/*The title and product image are centered.*/
+.productName {
+    text-align: center;
+    border: 1px dotted lightgray;
+}
+
+/*The title and product image are centered.*/
+img {
+    width: 80%;
+    margin: 5px 10%;
+}
+
+/*Notice that the text for the description in the image is justified.*/
+.description {
+    text-align: justify;
+    margin: 5%;
+    font-weight: normal;
+}
+
+/*The availability element extends the full width of the card, with a dark grey background and yellow text.*/
+span {
+    display: block;
+    width: 100%;
+    background-color: darkgray;
+    color: yellow;
+    text-indent: 10px;
+}
+
+/*Indents specs and pricing headers*/
+section > header{
+    margin: 5px 5px 0;
+}
+
+/*The text for the product specification details and pricing details is bold.*/
+p {
+    margin: 0 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 11px;
+    margin: 2px;
+}
